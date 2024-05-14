@@ -1,2 +1,60 @@
 ### Main Interface:
 - ... add more here
+
+
+### Basic Function Building:
+- How to create basic functions
+- Initializing Variables & Constants
+- &Var == Var.clone()
+- The main std_ops interface
+	- .pow() (and to not use .powf or .powi) (given `Function` `F` and `G`, and some number (an f64) `C`)
+		- Function.pow(Function) ->$F^G$
+		- f64.pow(Function) *(anything that can be cast as an f64)* -> $C^F$
+		- Function.pow(f64) (^^) -> $F^C$
+	- .logf() (and to not use .log)
+		- Same rules as pow for Function.logf(Function) etc.
+	- .exp's (given F is Some `Function`)
+		- F.exp() -> $e^F$
+		- F.exp2() -> $2^F$
+		- F.exp_m1() -> $e^F - 1$
+	- .ln's (given F again...)
+		- F.ln() -> $\ln(F)$
+		- F.ln_1p() -> $\ln(F + 1)$
+	- roots (given F as usual)
+		- F.sqrt() -> $\sqrt{F}$
+		- F.cbrt() -> $\sqrt[\frac{1}{3}]{F}$
+		- F.nthroot() -> $\sqrt[\frac{1}{n}]{F}$
+	- .abs (F... you get it by now, *hopefully*)
+		- F.abs() -> $|F|$
+	- .trig (F, and this one will be loooong)
+		- TL;DR your usual F.trig_operation does the trig
+			- Imagine...
+		- Typical Trig
+			- F.sin() -> $\sin(F)$
+			- F.cos() -> $\cos(F)$
+			- F.tan() -> $\tan(F)$
+			- F.sec() -> $\sec(F)$
+			- F.csc() -> $\csc(F)$
+			- F.cot() -> $\cot(F)$
+		- Trig*h*
+			- F.sinh() -> $\sinh(F)$
+			- F.cosh() -> $\cosh(F)$
+			- F.tanh() -> $\tanh(F)$
+			- F.sech() -> $\text{sech}(F)$
+			- F.csch() -> $\text{csch}(F)$
+				- Editors note. Why in the nine hells are $\sech$ and $\csch$ invalid but `\coth` works???
+			- F.coth() -> $\coth(F)$
+		- girT (Inverse Trig)
+			- F.asin() -> $\arcsin(F)$
+			- F.acos() -> $\arccos(F)$
+			- F.atan() -> $\arctan(F)$
+			- F.asec() -> $\text{arcsec}(F)$
+			- F.acsc() -> $\text{arccsc}(F)$
+			- F.acot() -> $\text{arccot}(F)$
+		- *h*girT (Inverse funny $e^x + e^{-x}$ trig)
+			- F.asinh() -> $\text{arcsinh}(F)$
+			- F.acosh() -> $\text{arccosh}(F)$
+			- F.atanh() -> $\text{arctanh}(F)$
+			- F.asech() -> $\text{arcsech}(F)$
+			- F.acsch() -> $\text{arccsch}(F)$
+			- F.acoth() -> $\text{arccoth}(F)$
