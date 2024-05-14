@@ -6,6 +6,7 @@
       {
         "id": "c12126333cc0eac6",
         "type": "tabs",
+        "dimension": 55.710659898477154,
         "children": [
           {
             "id": "8d72ee9953d7eccb",
@@ -18,12 +19,38 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a661b27ef2fc41e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Todo's/General Todo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f15f0624a925ea7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Todo's/Docs Todo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "234041b42f9d768f",
         "type": "tabs",
+        "dimension": 44.289340101522846,
         "children": [
           {
             "id": "3c74a313ac1d3a4a",
@@ -99,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAIN.md",
+                "file": "Todo's/Docs Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAIN.md",
+                "file": "Todo's/Docs Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAIN.md"
+                "file": "Todo's/Docs Todo.md"
               }
             }
           }
@@ -160,9 +187,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d72ee9953d7eccb",
+  "active": "0f15f0624a925ea7",
   "lastOpenFiles": [
-    "LICENSE",
-    "MAIN.md"
+    "Todo's/General Todo.md",
+    "MAIN.md",
+    "Todo's/Docs Todo.md",
+    "Todo's",
+    "LICENSE"
   ]
 }
