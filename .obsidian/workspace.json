@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Todo's/Docs Todo.md",
+                "file": "prototyping/Simplify -- Vec based Add and Mul - INPROG.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Todo's/Docs Todo.md",
+                "file": "prototyping/Simplify -- Vec based Add and Mul - INPROG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Todo's/Docs Todo.md",
+                "file": "prototyping/Simplify -- Vec based Add and Mul - INPROG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Todo's/Docs Todo.md"
+                "file": "prototyping/Simplify -- Vec based Add and Mul - INPROG.md"
               }
             }
           }
@@ -189,8 +189,10 @@
   },
   "active": "0f15f0624a925ea7",
   "lastOpenFiles": [
-    "Todo's/General Todo.md",
     "Todo's/Docs Todo.md",
+    "prototyping/Simplify -- Vec based Add and Mul - INPROG.md",
+    "prototyping",
+    "Todo's/General Todo.md",
     "MAIN.md",
     "Todo's",
     "LICENSE"
