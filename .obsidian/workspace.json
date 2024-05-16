@@ -6,7 +6,7 @@
       {
         "id": "c12126333cc0eac6",
         "type": "tabs",
-        "dimension": 56.789340101522846,
+        "dimension": 57.74111675126904,
         "children": [
           {
             "id": "8d72ee9953d7eccb",
@@ -50,7 +50,7 @@
       {
         "id": "234041b42f9d768f",
         "type": "tabs",
-        "dimension": 43.210659898477154,
+        "dimension": 42.25888324873097,
         "children": [
           {
             "id": "3c74a313ac1d3a4a",
@@ -189,11 +189,12 @@
   },
   "active": "0f15f0624a925ea7",
   "lastOpenFiles": [
-    "Todo's/Docs Todo.md",
+    "prototyping/Prototyping TOC.md",
+    "MAIN.md",
     "prototyping/Simplify -- Vec based Add and Mul - INPROG.md",
+    "Todo's/Docs Todo.md",
     "prototyping",
     "Todo's/General Todo.md",
-    "MAIN.md",
     "Todo's",
     "LICENSE"
   ]
